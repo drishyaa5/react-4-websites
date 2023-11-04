@@ -1,12 +1,12 @@
 import React from 'react';
 import {Navbar} from './components'
-
+import './App.css'
 const App = () =>(
     <div className='App'>
-        hello
-        <Navbar/>
+        <div className='gradient__bg'>
+            <Navbar/>
+        </div>
     </div>
 )
 
 export default App
-
